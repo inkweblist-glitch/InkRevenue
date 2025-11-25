@@ -31,11 +31,13 @@ const Footer = () => {
                   CORPORATE OFFICES
                 </div>
                 <div className={addressStyle}>
-                <span className="font-bold text-xl">Head Office</span>  - 98B, Udyog Vihar, Phase V, Gurgaon, <br />
+                  <span className="font-bold text-xl">Head Office</span> - 98B,
+                  Udyog Vihar, Phase V, Gurgaon, <br />
                   Haryana - 122016
                 </div>
                 <div className={addressStyle}>
-                <span className="font-bold text-xl">Branch Office</span>  - Banamalipur Jessore Road, Near Eco hospital, Opposite Canara
+                  <span className="font-bold text-xl">Branch Office</span> -
+                  Banamalipur Jessore Road, Near Eco hospital, Opposite Canara
                   Bank, Barasat, Kolkata, West Bengal, 700124
                 </div>
               </div>
@@ -44,7 +46,9 @@ const Footer = () => {
                 <div className="text-xl font-bold text-[#999]">
                   Contact Us -
                 </div>
-                <div className={addressStyle}>+91 8368232392,   +91 8860780181</div>
+                <div className={addressStyle}>
+                  +91 9808068484, +91 8860780181
+                </div>
               </div>
             </div>
 
@@ -95,8 +99,11 @@ const Footer = () => {
           <div className="max-w-[90%] mx-auto  grid grid-cols-1 gap-y-4 text-center lg:text-left">
             {/* ROW 1: Links - center on mobile, right-align on desktop */}
             <div className="flex flex-wrap justify-center lg:justify-end gap-4 sm:gap-6 order-1">
-              <a href="/about-us" className="text-xl  whitespace-nowrap font-bold ">
-                <AnimatedLetters text="About Us"/>
+              <a
+                href="/about-us"
+                className="text-xl  whitespace-nowrap font-bold "
+              >
+                <AnimatedLetters text="About Us" />
               </a>
               <a
                 href="/career"
