@@ -27,18 +27,11 @@ const Footer = () => {
               />
 
               <div>
-                <div className="text-xl font-bold text-[#999]">
-                  CORPORATE OFFICES
-                </div>
+
                 <div className={addressStyle}>
-                  <span className="font-bold text-xl">Head Office</span> - 98B,
+                  <span className="font-bold text-xl">Office</span> - 98B,
                   Udyog Vihar, Phase V, Gurgaon, <br />
                   Haryana - 122016
-                </div>
-                <div className={addressStyle}>
-                  <span className="font-bold text-xl">Branch Office</span> -
-                  Banamalipur Jessore Road, Near Eco hospital, Opposite Canara
-                  Bank, Barasat, Kolkata, West Bengal, 700124
                 </div>
               </div>
 

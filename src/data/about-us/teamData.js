@@ -34,14 +34,6 @@ export const team = [
     position: "Client Relationship Manager",
   },
   {
-    image: "/img/team/image6.jpg",
-    position: "BD & CRM",
-  },
-  {
-    image: "/img/team/image5.jpg",
-    position: "Data Analyst",
-  },
-  {
     image: "/img/team/image2.jpg",
     position: "BD & CRM",
   },

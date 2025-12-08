@@ -136,16 +136,17 @@ const page = () => {
                 </a>
               </span>
             </p>
-            {contactInfo.addresses.map((address, i) => (
-              <p key={i} className="flex items-center gap-2">
-                <FaMapMarkerAlt className="text-blue-400" />
-                <span className="font-bold">
-                  {" "}
-                  {i === 0 ? "Head Office:  " : "Branch Office:  "}{" "}
-                  <span className="font-normal">{address}</span>
+
+            <p className="flex items-center gap-2">
+              <FaMapMarkerAlt className="text-blue-400" />
+              <span className="font-bold">
+                Office:{" "}
+                <span className="font-normal">
+                  98B, Udyog Vihar, Phase V, Gurgaon, Haryana - 122016
                 </span>
-              </p>
-            ))}
+              </span>
+            </p>
+
             <p className="flex items-center gap-2">
               <FaClock className="text-blue-400" />{" "}
               <span className="font-bold">
@@ -302,7 +303,7 @@ const page = () => {
       {/* Success Popup */}
       {showPopup && (
         <SuccessPopup show={showPopup} onClose={() => setShowPopup(false)} />
-      )}  
+      )}
     </section>
   );
 };
