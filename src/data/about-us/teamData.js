@@ -19,11 +19,11 @@ export const team = [
 
   {
     image: "/img/team/anant.jpg",
-    position: "Business development Manager",
+    position: "Client Relationship Manager Lead",
   },
   {
     image: "/img/team/Depaanshi.jpg",
-    position: "Client Relationship Manager",
+    position: "Sr. Business Research and Client Relations Manager",
   },
   {
     image: "/img/team/image4.jpg",
@@ -31,14 +31,22 @@ export const team = [
   },
   {
     image: "/img/team/image2.jpg",
-    position: "BD & CRM",
+    position: "Client Relationship Manager",
   },
   {
     image: "/img/team/image3.jpg", 
-    position: "Client Relationship Manager",
+    position: "BDM and CRM",
   },
   {
     image: "/img/team/image7.jpg",
     position: "Client Relationship Executive",
+  },
+  {
+    image: "/img/team/arihant_Crm.jpeg", 
+    position: "Client Relationship Manager",
+  },
+  {
+    image: "/img/team/Khushi-Negi_Crm.jpeg", 
+    position: "Client Relationship Manager",
   },
 ];
