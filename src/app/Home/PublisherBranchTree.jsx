@@ -42,6 +42,7 @@ export default function PublisherBranchTree() {
                       animate={inView ? { scale: 1, opacity: 1 } : {}}
                       transition={{
                         delay: inView ? 0.5 + index * 0.3 : 0,
+                        
                         duration: 0.5,
                       }}
                     >
