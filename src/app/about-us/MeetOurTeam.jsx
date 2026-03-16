@@ -50,7 +50,7 @@ export default function MeetOurTeam() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl w-full justify-center">
         {/* Centered top card - Kirti Diwidi */}
-        {team.length > 0 && (
+        {/* {team.length > 0 && (
           <div className="text-center max-w-sm mx-auto col-span-full">
             <div className="mx-auto mb-4 w-[300px] h-[350px] relative rounded-xl overflow-hidden bg-white">
               <Image
@@ -64,10 +64,10 @@ export default function MeetOurTeam() {
             <p className="text-blue-400 font-medium">{team[0].position}</p>
             <p className="text-gray-400 mt-3 text-sm">{team[0].description}</p>
           </div>
-        )}
+        )} */}
 
         {/* Remaining team members */}
-        {team.slice(1).map((member, idx) => (
+        {team.slice(0).map((member, idx) => (
           <div key={idx} className="text-center max-w-sm mx-auto">
             <div className="mx-auto mb-4 w-[300px] h-[350px] relative rounded-xl overflow-hidden bg-white">
               <Image

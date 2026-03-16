@@ -16,11 +16,7 @@ export const leadership = [
 ];
 
 export const team = [
-  {
-    image: "/img/team/kirti.jpg",
-    name: "Kirti Dwivedi",
-    position: "Director of Sales",
-  },
+
   {
     image: "/img/team/anant.jpg",
     position: "Business development Manager",

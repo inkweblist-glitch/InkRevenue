@@ -12,7 +12,7 @@ export default function AdvertiserBranchTree() {
     <>
       {/* Desktop View */}
       <div
-        className="hidden lg:flex justify-center items-center w-full h-screen px-4 relative pr-35"
+        className="hidden lg:flex justify-center items-center w-full h-screen px-4 relative pr-35 md:mt-20"
         style={{
           backgroundColor: "var(--bg-color)",
           color: "var(--text-color)",

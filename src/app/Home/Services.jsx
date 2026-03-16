@@ -17,7 +17,7 @@ const Services = () => {
     backgroundColor: "var(--bg-main1)",
     color: "var(--text-main)",
   }}>
-      <div className="w-[90%] md:w-[80%] mx-auto">
+      <div className="w-[90%] md:w-[90%] mx-auto">
         <div className=" text-lg md:text-xl pt-10 font-semibold">
           Services
         </div>
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-12 mt-14 gap-6">
-          <div className="hidden lg:block lg:col-span-4 relative h-[420px] w-[280px]">
+          <div className="hidden lg:block lg:col-span-4 relative h-[420px] w-[250px]">
             {serviceImages.map((img, index) => (
               <img
                 key={index}

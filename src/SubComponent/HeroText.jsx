@@ -51,8 +51,8 @@ const HeroText = () => {
     lines.slice(0, lineIndex).reduce((acc, line) => acc + line.length, 0);
 
   return (
-    <div className="text-center px-4 py-12 space-y-6 sm:px-6 md:px-0">
-      <div className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight space-y-4">
+    <div className="text-center px-4 py-14 space-y-6 sm:px-6 md:px-0 md:mt-10">
+      <div className="text-3xl sm:text-4xl  md:text-3xl font-bold leading-tight space-y-4">
         {lines.map((line, lineIndex) => (
           <div
             key={lineIndex}

@@ -14,7 +14,7 @@ export default function LifeIR() {
         {/* 🌐 Floating Images — Only visible on large screens (lg and up) */}
         <div className="hidden lg:block">
           {floatingImages.map((img, index) => (
-            <FloatingImage key={index} {...img} />
+            <FloatingImage key={index} {...img}/>
           ))}
         </div>
 
