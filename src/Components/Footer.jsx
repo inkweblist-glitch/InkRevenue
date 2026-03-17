@@ -126,7 +126,7 @@ const Footer = () => {
 
             {/* ROW 2: Copyright */}
             <div className="text-lg text-white order-2">
-              © 2025 InkRevenue Rights Reserved. Designed by InkRevenue.
+              © 2026 InkRevenue Rights Reserved. Designed by InkRevenue.
             </div>
           </div>
         </footer>
