@@ -40,7 +40,7 @@ const Footer = () => {
                   Contact Us -
                 </div>
                 <div className={addressStyle}>
-                  +91 9808068484, +91 8860780181
+                  +91 9289894867, +91 83778 29698
                 </div>
               </div>
             </div>
