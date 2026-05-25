@@ -76,7 +76,7 @@ const Footer = () => {
                   <FaLinkedinIn className="text-white text-4xl hover:text-blue-400 transition" />
                 </a>
                 <a
-                  href="https://wa.me/918368232392"
+                  href="https://wa.me/918377829698"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
