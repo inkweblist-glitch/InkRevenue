@@ -1,5 +1,5 @@
 export const contactInfo = {
-  phones: [{ label: "Phone 1", number: "+91 9808068484, +91 8860780181" }],
+  phones: [{ label: "Phone 1", number: "+91 9289894867, +91 8377829698" }],
   email: "crm@inkrevenue.com",
   addresses: [
     "98B, Udyog Vihar, Phase V, Gurgaon, Haryana - 122016",
